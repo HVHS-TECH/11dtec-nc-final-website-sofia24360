@@ -1,10 +1,32 @@
 html, body {
 
 }
+.container {
+    display:grid;
+    grid-template: 150px / auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 400px 300px;
+}    
+.navbar {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
 
-header {
-    background-image: url("");
 }
-#reference {
-    font-size: 10px;
+.header {
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 2;
+    background-image: ;
+
+}
+.main1 {
+    grid-column: 1 / span 3;
+    grid-row: 3 / span 1;
+}
+.main2 {
+    grid-column: 1 / span 2;
+    grid-row: 4 / span 3;
+}
+.footer {
+    grid-column: 1 / span 2;
+    grid-row: 5 / span auto ;
 }
