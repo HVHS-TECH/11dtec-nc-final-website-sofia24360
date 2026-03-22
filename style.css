@@ -10,7 +10,8 @@ html, body {
 .navbar {
     grid-column: 1 / span 3;
     grid-row: 1;
-    justify-content: left;
+    align-items: end;
+    align-content: center;
 
 }
 .header {
