@@ -3,14 +3,14 @@ html, body {
 }
 .container {
     display:grid;
-    grid-template: 12px / auto auto auto;
+    grid-template: 5px / auto auto auto;
     grid-template-columns: auto auto auto;
     grid-template-rows: 120px 200px;
 }    
 .navbar {
     grid-column: 1 / span 3;
     grid-row: 1;
-    justify-content: right;
+    
 
 }
 .header {
