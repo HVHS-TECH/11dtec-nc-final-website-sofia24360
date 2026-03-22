@@ -30,6 +30,6 @@ html, body {
 }
 .footer {
     grid-column: 1 / span 2;
-    grid-row: 5 / span auto ;
+    grid-row: 5;
 }
 
