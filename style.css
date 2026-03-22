@@ -1,9 +1,9 @@
-html, body {
+html,body {
 
 }
 .container {
     display:grid;
-    grid-template: 5px / auto auto auto;
+    grid-template: auto auto auto;
     grid-template-columns: auto auto auto;
     grid-template-rows: 120px 200px;
 }    
@@ -16,8 +16,8 @@ html, body {
 .header {
     grid-column: 1 / span 3;
     grid-row: 2 / span 2;
-    background-image: url("alfeacollege.jpg");
-    background-color: antiquewhite;
+    background-image: url(alfeacollege.jpg);
+    
 
 }
 .main1 {
