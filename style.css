@@ -3,7 +3,7 @@ html, body {
 }
 .container {
     display:grid;
-    grid-template: auto auto auto;
+    grid-template: 12px  100px / auto auto auto;
     grid-template-columns: auto auto auto;
     grid-template-rows: 120px 200px;
 }    
