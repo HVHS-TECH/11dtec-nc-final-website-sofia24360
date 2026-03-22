@@ -16,6 +16,7 @@ html, body {
     grid-column: 1 / span 3;
     grid-row: 2 / span 2;
     background-image: url("alfeacollege.jpg");
+    background-color: antiquewhite;
 
 }
 .main1 {
