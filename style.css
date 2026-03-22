@@ -3,9 +3,9 @@ html, body {
 }
 .container {
     display:grid;
-    grid-template: 150px / auto auto auto;
+    grid-template: auto auto auto;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 400px 300px;
+    grid-template-rows: 120px 200px;
 }    
 .navbar {
     grid-column: 1 / span 3;
