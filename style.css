@@ -1,31 +1,38 @@
-html, body {
+html,body {background-color: #B3DEE2;
 
 }
 .container {
     display:grid;
-    grid-template: 10px / auto auto auto;
     grid-template-columns: auto auto auto;
     grid-template-rows: 120px 400px;
-}    
+}   
 .navbar {
     grid-column: 1 / span 3;
-    align-content: end;
+    align-content: center;
+    grid-row: 1;
 }
 .header {
     grid-column: 1 / span 3;
-    grid-row: 2 / span 3;
+    grid-row: 2 / span 6;
     align-content: center;
-
-}
+}    
 .main1 {
     grid-column: 1 / span 3;
-    grid-row: 4;
+    grid-row: 8 / span 2;
+    background-color: #EA9AB2;
+    align-content: center;
+    padding: 2%;
+    margin: 0%;
 }
 .main2 {
     grid-column: 1 / span 2;
-    grid-row: 5 / span 3;
+    grid-row: 10 / span 3;
 }
 .footer {
     grid-column: 1 / span 2;
-    grid-row: 7;
+    grid-row: 13;
+}
+img {
+    width: 15%;
+    height: auto;
 }
