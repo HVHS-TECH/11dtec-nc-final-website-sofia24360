@@ -7,8 +7,9 @@ html,body {background-color: #B3DEE2;
 }   
 .navbar {
     grid-column: 2 / span 2;
-    align-content: center;
+    align-content: right;
     padding: 6%;
+    
 }
 .header {
     grid-column: 1 / span 3;
@@ -16,10 +17,11 @@ html,body {background-color: #B3DEE2;
     justify-content: center;
     background-color: darkorchid;
     padding: 17%;
-    background-image: url("alfeacollege.jpg");
+    background-image: url("alfea2edit1.jpg");
     background-size: cover;
 }    
 .main1 {
+    grid-column: 1 / span 3;
     background-color: #EA9AB2;
     padding: 4%;
     justify-content: right;
@@ -38,12 +40,12 @@ html,body {background-color: #B3DEE2;
 .footer {
     grid-column: 1 / span 3;
 }
-img {
-    width: 22%;
-    height: auto;
-    border-radius: 5%;
-    grid-column: 1;
+a {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-h1{
-    justify-self: center;
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: max-content;
 }
